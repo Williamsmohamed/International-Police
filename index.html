@@ -1,93 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>International Police Officer Profile</title>
-
-    <meta name="description"
-        content="Official Professional Profile">
+    <title>International Police Profile</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-  
-    <!-- Animated Background -->
+    <!-- LOADER -->
+    <div id="loader">
+        <div class="loader-content">
+            <div class="loader-logo">IP</div>
+
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+
+            <p class="loader-text">
+                Initializing Secure Diplomatic Interface...
+            </p>
+        </div>
+    </div>
+
+    <!-- BACKGROUND -->
     <div class="background-grid"></div>
     <div class="background-glow"></div>
 
-    <!-- Navigation -->
+    <!-- NAVIGATION -->
     <nav class="navbar">
 
         <div class="nav-logo">
-            IPS
+            INTERNATIONAL POLICE
         </div>
 
         <ul class="nav-links">
+            <li><a href="#overview">Overview</a></li>
             <li><a href="#profile">Profile</a></li>
-            <li><a href="#dashboard">Dashboard</a></li>
-            <li><a href="#biography">Biography</a></li>
-            <li><a href="#timeline">Timeline</a></li>
-            <li><a href="#missions">Assignments</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#service">Service Record</a></li>
+            <li><a href="#assignments">Assignments</a></li>
+            <li><a href="#verification">Verification</a></li>
         </ul>
 
     </nav>
 
-    <!-- Hero Section -->
-    <section id="profile" class="hero">
-
-        <div class="hero-overlay"></div>
+    <!-- HERO -->
+    <section class="hero" id="overview">
 
         <div class="hero-content">
 
             <div class="profile-image-container">
 
-                <div class="profile-ring"></div>
-
-                <img src="images/officer.jpg"
-                    alt="Officer Photo"
+                <img
+                    src="officer.jpg"
+                    alt="Officer Portrait"
                     class="profile-image">
 
             </div>
 
             <div class="hero-text">
 
-                <span class="status-badge">
-                    ACTIVE ASSIGNMENT
-                </span>
+                <div class="status-badge">
+                    ACTIVE DIPLOMATIC ASSIGNMENT
+                </div>
 
-                <h1>
-                    OFFICER NAME
-                </h1>
+                <h1>OFFICER NAME</h1>
 
                 <h2>
-                    Security Attaché
+                    International Police Security Attaché
                 </h2>
 
                 <p class="hero-description">
-                    Professional profile portal presenting career
-                    history, international assignments, leadership
-                    experience, and diplomatic security coordination.
+                    Official profile portal for a senior international law
+                    enforcement officer serving in a diplomatic security
+                    capacity. This secure profile provides professional
+                    information, assignment records, mission history and
+                    credential verification access.
                 </p>
 
                 <div class="hero-buttons">
 
-                    <a href="#biography" class="btn-primary">
+                    <a href="#profile" class="btn-primary">
                         View Profile
                     </a>
 
-                    <a href="#contact" class="btn-secondary">
-                        Contact Office
+                    <a href="#verification" class="btn-secondary">
+                        Verify Identity
                     </a>
 
                 </div>
@@ -98,35 +101,82 @@
 
     </section>
 
-    <!-- Dashboard -->
-    <section id="dashboard" class="dashboard-section">
+    <!-- PROFILE -->
+    <section class="content-section" id="profile">
 
         <div class="container">
 
             <div class="section-title">
-                <h2>Professional Dashboard</h2>
+                <h2>Executive Profile</h2>
+            </div>
+
+            <div class="glass-panel">
+
+                <h3>Official Position</h3>
+
+                <p>
+                    Placeholder content for official office profile.
+                    Replace with approved information including title,
+                    department, diplomatic responsibilities, international
+                    coordination role and security portfolio.
+                </p>
+
+                <br>
+
+                <h3>Current Assignment</h3>
+
+                <p>
+                    Placeholder content for current diplomatic security
+                    assignment. This section can contain official
+                    responsibilities, intergovernmental coordination
+                    functions and regional security duties.
+                </p>
+
+                <br>
+
+                <h3>Professional Summary</h3>
+
+                <p>
+                    Placeholder biography section. Insert approved
+                    professional background, years of service, operational
+                    experience and leadership responsibilities.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- DASHBOARD -->
+    <section class="dashboard-section">
+
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Operational Overview</h2>
             </div>
 
             <div class="dashboard-grid">
 
                 <div class="stat-card">
-                    <h3>21+</h3>
+                    <h3>15+</h3>
                     <p>Years Service</p>
                 </div>
 
                 <div class="stat-card">
-                    <h3>32</h3>
-                    <p>Countries Served</p>
+                    <h3>20+</h3>
+                    <p>International Missions</p>
                 </div>
 
                 <div class="stat-card">
-                    <h3>147</h3>
-                    <p>Assignments</p>
+                    <h3>10+</h3>
+                    <p>Partner Agencies</p>
                 </div>
 
                 <div class="stat-card">
-                    <h3>68</h3>
-                    <p>Diplomatic Missions</p>
+                    <h3>24/7</h3>
+                    <p>Security Readiness</p>
                 </div>
 
             </div>
@@ -135,70 +185,54 @@
 
     </section>
 
-    <!-- Biography -->
-    <section id="biography" class="content-section">
+    <!-- TIMELINE -->
+    <section class="timeline-section" id="service">
 
         <div class="container">
 
             <div class="section-title">
-                <h2>Professional Biography</h2>
-            </div>
-
-            <div class="glass-panel">
-
-                <p>
-                    Insert official biography here.
-
-                    This section should summarize
-                    leadership experience,
-                    operational background,
-                    international cooperation,
-                    diplomatic security support,
-                    and other approved public information.
-                </p>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- Timeline -->
-    <section id="timeline" class="timeline-section">
-
-        <div class="container">
-
-            <div class="section-title">
-                <h2>Career Timeline</h2>
+                <h2>Service Record</h2>
             </div>
 
             <div class="timeline">
 
                 <div class="timeline-item">
-                    <div class="timeline-year">2026</div>
                     <div class="timeline-content">
-                        Current Assignment
+                        <div class="timeline-year">YEAR</div>
+                        <h3>Position Title</h3>
+                        <p>
+                            Placeholder service record entry.
+                        </p>
                     </div>
                 </div>
 
                 <div class="timeline-item">
-                    <div class="timeline-year">2023</div>
                     <div class="timeline-content">
-                        Regional Security Coordination
+                        <div class="timeline-year">YEAR</div>
+                        <h3>Position Title</h3>
+                        <p>
+                            Placeholder service record entry.
+                        </p>
                     </div>
                 </div>
 
                 <div class="timeline-item">
-                    <div class="timeline-year">2020</div>
                     <div class="timeline-content">
-                        Diplomatic Protection Operations
+                        <div class="timeline-year">YEAR</div>
+                        <h3>Position Title</h3>
+                        <p>
+                            Placeholder service record entry.
+                        </p>
                     </div>
                 </div>
 
                 <div class="timeline-item">
-                    <div class="timeline-year">2017</div>
                     <div class="timeline-content">
-                        International Liaison Assignment
+                        <div class="timeline-year">YEAR</div>
+                        <h3>Position Title</h3>
+                        <p>
+                            Placeholder service record entry.
+                        </p>
                     </div>
                 </div>
 
@@ -208,31 +242,43 @@
 
     </section>
 
-    <!-- Assignments -->
-    <section id="missions" class="content-section">
+    <!-- ASSIGNMENTS -->
+    <section class="content-section" id="assignments">
 
         <div class="container">
 
             <div class="section-title">
-                <h2>International Assignments</h2>
+                <h2>Key Assignments</h2>
             </div>
 
             <div class="assignments-grid">
 
                 <div class="assignment-card">
-                    <h3>East Africa</h3>
+                    <h3>Assignment One</h3>
+                    <p>
+                        Assignment description placeholder.
+                    </p>
                 </div>
 
                 <div class="assignment-card">
-                    <h3>West Africa</h3>
+                    <h3>Assignment Two</h3>
+                    <p>
+                        Assignment description placeholder.
+                    </p>
                 </div>
 
                 <div class="assignment-card">
-                    <h3>International Cooperation</h3>
+                    <h3>Assignment Three</h3>
+                    <p>
+                        Assignment description placeholder.
+                    </p>
                 </div>
 
                 <div class="assignment-card">
-                    <h3>Diplomatic Security</h3>
+                    <h3>Assignment Four</h3>
+                    <p>
+                        Assignment description placeholder.
+                    </p>
                 </div>
 
             </div>
@@ -241,24 +287,28 @@
 
     </section>
 
-    <!-- Verification -->
-    <section class="verification-section">
+    <!-- VERIFICATION -->
+    <section class="verification-section" id="verification">
 
         <div class="container">
 
+            <div class="section-title">
+                <h2>Credential Verification</h2>
+            </div>
+
             <div class="verification-box">
 
-                <h2>Digital Profile Access</h2>
+                <h3>
+                    Official Digital Profile Verification
+                </h3>
 
                 <p>
-                    This profile may be linked from
-                    authorized NFC-enabled credentials
-                    or official contact material.
+                    This profile may be linked to NFC-enabled identity
+                    credentials and official digital verification systems.
                 </p>
 
-                <a href="#"
-                    class="verify-btn">
-                    OPEN PROFILE
+                <a href="#" class="verify-btn">
+                    VERIFY PROFILE
                 </a>
 
             </div>
@@ -267,50 +317,20 @@
 
     </section>
 
-    <!-- Contact -->
-    <section id="contact" class="content-section">
-
-        <div class="container">
-
-            <div class="section-title">
-                <h2>Contact Information</h2>
-            </div>
-
-            <div class="glass-panel">
-
-                <p>Email: office@example.org</p>
-
-                <p>Office: Add Office Address</p>
-
-                <p>Region: East Africa</p>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- Footer -->
+    <!-- FOOTER -->
     <footer>
 
-        <div class="footer-content">
+        <p>
+            Official International Police Profile Portal
+        </p>
 
-            <h3>International Police Profile</h3>
-
-            <p>
-                Professional Information Portal
-            </p>
-
-            <p>
-                © 2026 All Rights Reserved
-            </p>
-
-        </div>
+        <p>
+            © <span id="year"></span> All Rights Reserved
+        </p>
 
     </footer>
 
     <script src="script.js"></script>
 
 </body>
-
 </html>
